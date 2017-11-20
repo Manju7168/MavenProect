@@ -4,7 +4,7 @@
   <groupId>com.mn.first</groupId>
   <artifactId>mavenProj</artifactId>
   <packaging>war</packaging>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.2-SNAPSHOT</version>
   <name>mavenProj Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
@@ -14,6 +14,11 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+     <dependency>
+                <groupId>com.sun.mail</groupId>
+                <artifactId>javax.mail</artifactId>
+                <version>1.6.0</version>
+            </dependency>
   </dependencies>
   <build>
     <finalName>mavenProj</finalName>
